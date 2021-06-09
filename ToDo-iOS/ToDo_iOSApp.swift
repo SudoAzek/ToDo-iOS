@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+ @main
 struct ToDo_iOSApp: App {
     let persistenceController = PersistenceController.shared
 
