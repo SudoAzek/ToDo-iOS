@@ -14,6 +14,8 @@
 		031814AE2666164600DFD30E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031814AD2666164600DFD30E /* Persistence.swift */; };
 		031814B12666164600DFD30E /* ToDo_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 031814AF2666164600DFD30E /* ToDo_iOS.xcdatamodeld */; };
 		031814BC2666258300DFD30E /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031814BB2666258300DFD30E /* AddToDoView.swift */; };
+		03C9335F266F512400D25272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C9335E266F512400D25272 /* LaunchScreen.storyboard */; };
+		03C933612670423A00D25272 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C933602670423A00D25272 /* EmptyListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		031814B02666164600DFD30E /* ToDo_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_iOS.xcdatamodel; sourceTree = "<group>"; };
 		031814B22666164600DFD30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031814BB2666258300DFD30E /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
+		03C9335E266F512400D25272 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C933602670423A00D25272 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				031814A82666164600DFD30E /* Assets.xcassets */,
 				031814AD2666164600DFD30E /* Persistence.swift */,
 				031814B22666164600DFD30E /* Info.plist */,
+				03C9335E266F512400D25272 /* LaunchScreen.storyboard */,
 				031814AF2666164600DFD30E /* ToDo_iOS.xcdatamodeld */,
 				031814AA2666164600DFD30E /* Preview Content */,
 			);
@@ -82,6 +87,7 @@
 			children = (
 				031814A62666164300DFD30E /* ContentView.swift */,
 				031814BB2666258300DFD30E /* AddToDoView.swift */,
+				03C933602670423A00D25272 /* EmptyListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C9335F266F512400D25272 /* LaunchScreen.storyboard in Resources */,
 				031814AC2666164600DFD30E /* Preview Assets.xcassets in Resources */,
 				031814A92666164600DFD30E /* Assets.xcassets in Resources */,
 			);
@@ -157,6 +164,7 @@
 			files = (
 				031814AE2666164600DFD30E /* Persistence.swift in Sources */,
 				031814BC2666258300DFD30E /* AddToDoView.swift in Sources */,
+				03C933612670423A00D25272 /* EmptyListView.swift in Sources */,
 				031814B12666164600DFD30E /* ToDo_iOS.xcdatamodeld in Sources */,
 				031814A72666164300DFD30E /* ContentView.swift in Sources */,
 				031814A52666164300DFD30E /* ToDo_iOSApp.swift in Sources */,
@@ -289,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDo-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S9Y9Q5VS5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ToDo-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -310,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDo-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S9Y9Q5VS5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ToDo-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
