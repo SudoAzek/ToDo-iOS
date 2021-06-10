@@ -14,8 +14,11 @@
 		031814AE2666164600DFD30E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031814AD2666164600DFD30E /* Persistence.swift */; };
 		031814B12666164600DFD30E /* ToDo_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 031814AF2666164600DFD30E /* ToDo_iOS.xcdatamodeld */; };
 		031814BC2666258300DFD30E /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031814BB2666258300DFD30E /* AddToDoView.swift */; };
+		03BA3E9D267097B200F9C25F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA3E9C267097B200F9C25F /* SettingsView.swift */; };
 		03C9335F266F512400D25272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C9335E266F512400D25272 /* LaunchScreen.storyboard */; };
 		03C933612670423A00D25272 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C933602670423A00D25272 /* EmptyListView.swift */; };
+		03E67A302671CDBB0081F7CE /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E67A2F2671CDBB0081F7CE /* FormRowStaticView.swift */; };
+		03E67A322671D7200081F7CE /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E67A312671D7200081F7CE /* FormRowLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +31,11 @@
 		031814B02666164600DFD30E /* ToDo_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_iOS.xcdatamodel; sourceTree = "<group>"; };
 		031814B22666164600DFD30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031814BB2666258300DFD30E /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
+		03BA3E9C267097B200F9C25F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		03C9335E266F512400D25272 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C933602670423A00D25272 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		03E67A2F2671CDBB0081F7CE /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		03E67A312671D7200081F7CE /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,9 @@
 				031814A62666164300DFD30E /* ContentView.swift */,
 				031814BB2666258300DFD30E /* AddToDoView.swift */,
 				03C933602670423A00D25272 /* EmptyListView.swift */,
+				03BA3E9C267097B200F9C25F /* SettingsView.swift */,
+				03E67A2F2671CDBB0081F7CE /* FormRowStaticView.swift */,
+				03E67A312671D7200081F7CE /* FormRowLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BA3E9D267097B200F9C25F /* SettingsView.swift in Sources */,
+				03E67A302671CDBB0081F7CE /* FormRowStaticView.swift in Sources */,
+				03E67A322671D7200081F7CE /* FormRowLinkView.swift in Sources */,
 				031814AE2666164600DFD30E /* Persistence.swift in Sources */,
 				031814BC2666258300DFD30E /* AddToDoView.swift in Sources */,
 				03C933612670423A00D25272 /* EmptyListView.swift in Sources */,
